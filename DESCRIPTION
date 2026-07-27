@@ -1,0 +1,23 @@
+Package: POMPG
+Title: Pareto-Optimal Multi-Protected-Group Selection Optimization
+Version: 0.1.0
+Authors@R:
+    person("Q. Chelsea", "Song", , "qianqisong@gmail.com", role = c("aut", "cre"))
+Description: Extends the Pareto-optimal predictor weighting framework of the
+    'ParetoR' package (Normal Boundary Intersection) from a single
+    adverse-impact protected subgroup to multiple protected subgroups
+    simultaneously (PO-MPG). Provides POMA_Focal() for multi-group NBI
+    optimization and supporting utilities for selection-system simulation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports:
+    graphics,
+    grDevices,
+    MASS,
+    nloptr,
+    ParetoR,
+    stats
+Remotes:
+    Diversity-ParetoOptimal/ParetoR
